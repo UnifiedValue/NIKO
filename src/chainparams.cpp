@@ -78,7 +78,11 @@ public:
         assert(hashGenesisBlock == uint256("109f86a4ff06b0972fb722f6717747476eda9da0e51d5a8a0f1171d134ccd715"));
         assert(genesis.hashMerkleRoot == uint256("0x7c9a475ed6e3e90af38f932e1c4fff21015a8efe44491b3da7e10b65d69ab852"));
 
-        vSeeds.push_back(CDNSSeedData("NIKO (N1)", "34.212.82.12"));
+        vSeeds.push_back(CDNSSeedData("NIKO (N1)", "niko1.unifiedvalue.com"));
+        vSeeds.push_back(CDNSSeedData("NIKO (N2)", "niko2.unifiedvalue.com"));
+        vSeeds.push_back(CDNSSeedData("NIKO (N3)", "niko3.unifiedvalue.com"));
+        vSeeds.push_back(CDNSSeedData("NIKO (N4)", "niko4.unifiedvalue.com"));
+        vSeeds.push_back(CDNSSeedData("NIKO (N5)", "34.212.82.12"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,53);
